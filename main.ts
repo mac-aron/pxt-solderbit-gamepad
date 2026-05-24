@@ -1,6 +1,6 @@
 //% weight=100 color=#2b2b2b icon="\uf11b" block="solder:bit Gamepad"
 //% groups="['Buttons', 'NeoPixels']"
-namespace gamepad {
+namespace solderbit_gamepad {
   // Pins setup
   let serialOut = DigitalPin.P0;
   let parallelLoad = DigitalPin.P1;
