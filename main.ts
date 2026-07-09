@@ -31,6 +31,14 @@ namespace solderbit_gamepad {
     Y = 6, // 0b01000000
     //% block="X"
     X = 7, // 0b10000000
+    //% block="North"
+    North = 3,
+    //% block="East"
+    East = 2,
+    //% block="South"
+    South = 5,
+    //% block="West"
+    West = 4
   }
 
   let strip = neopixel.create(DigitalPin.P1, 5, NeoPixelMode.RGB);
